@@ -1,0 +1,187 @@
+@font-face{
+	font-family: PET-BoldItalic;
+	src: url('../fonts/PET-BoldItalic.otf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 100%;
+	width: 100%;
+	height:100%;
+}
+
+.container{
+	width: 100em;
+	height: 52em;
+	background-color: #FFFFFF;
+	z-index: -8;
+}
+
+#logo img{
+	position:absolute;
+	float: left;
+	margin-top: 6em;
+	margin-left: 7em;
+	width: 15em;
+	height: 15em;
+	z-index: 1;
+}
+
+#photo img{
+	position:absolute;
+	width: 70em;
+	height: 40em;
+	margin-top: 7em;
+	margin-left: 30em;
+	z-index: 1;
+}
+
+.style_bars{
+	height: 300px;
+	width: 22px;
+	background-color: white;
+	z-index: 8;
+	margin-left: 28.3em;
+	margin-top: 8em;
+	position: absolute;
+}
+
+#barra_home_roxa_img{
+	height: 100px;
+}
+
+#barra_home_laranja_img{
+	height: 100px;
+}
+
+#barra_home_vermelha_img{
+	height: 100px;
+}
+
+
+#text-box{
+	font-family: PET-BoldItalic;
+	position: absolute;
+	width: 16em;
+	height: 2.5em;
+	background-color: #662e9b
+;
+	margin-top: 10.5em;
+	margin-left: 1.2em;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1em;
+	/*line-height: 0.9;*/
+	color: #FFFFFF;
+	z-index: 2;
+}
+.menu_line{
+	height: 4em;
+	margin-top: 1.5em;
+	width: 34em;
+	
+	float: right;
+	z-index: 1;
+	/*margin-right: 2em;*/
+}
+
+#menu_bar img{
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	float: right;
+	margin-left: 25em;
+	margin-right: 2em;
+	z-index: 1;
+}
+
+
+#contact #a{
+	visibility: none;
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	/*margin-top: 1.5em;*/
+	margin-right: 1em;
+	margin-left: 0em;
+	z-index: 2;
+
+									
+	float: left;
+}
+ #contact #b{
+	
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	/*margin-top: 1.5em;*/
+	margin-right: 1em;
+	margin-left: 0em;
+	z-index: 1;
+}
+
+
+
+
+/*.container .menu_line #contact #a:hover{
+	z-index: 0;
+}
+*/
+#facebook #a{
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	float:left;
+	margin-right: 1em;
+	margin-left: 15em;
+	z-index: 2;
+	
+	
+}
+#facebook #b{
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	float:left;
+	margin-right: 1em;
+	margin-left: 15em;
+	z-index: 1;
+	
+	
+}
+
+/*.container .menu_line #facebook #a:hover{
+	z-index: 0;
+}*/
+
+#instagram #a{
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	/*margin-top: 1.5em;*/
+	float: left;
+	margin-right: 3em;
+	margin-left: 7.5em;
+	z-index: 2;
+}
+
+#instagram #b{
+	position: absolute;
+	height: 4em;
+	width: 4em;
+	/*margin-top: 1.5em;*/
+	float: left;
+	margin-right: 3em;
+	margin-left: 7.5em;
+	z-index: 1;
+}
+
+/*.container .menu_line #instagram #a:hover{
+	z-index: 0;
+}*/
+
+
