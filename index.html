@@ -10,19 +10,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="./style/home.css" />
 		<script src="./script/home.js"> </script>
+		<meta name="author" content="Gedor José da Silva Neto - gedor@alunos.ufpr.edu.br">
 		
 		
 	</head>
 	
 	
-	<body>
+	<body >
+
 		<div class="container">
 			<div id="logo">
 				<img src="./img/pet_logo_2.jpg" />
 			</div>
 			<div class="style_bars">
 				<div id="barra_home_roxa">
-					<img src="./img/barra_home_roxa.png" id="barra_home_roxa_img" onclick= changeToBlue(); />
+					<img src="./img/barra_home_roxa.png" id="barra_home_roxa_img" onclick= "changeToBlue();" />
 				</div>
 				<div id="barra_home_laranja">
 					<img src="./img/barra_home_laranja.png" id="barra_home_laranja_img" onclick="changeToOrange();"/>
@@ -42,20 +44,32 @@
 			<div class="menu_line">
 				
 				<div id="contact">
-					<a href="https://www.facebook.com/petcoce/" target="_blank" id="contact_link"><img src="./img/contato_roxo.png" onmouseover="mouseon(this)" onmouseout="mouseout(this)" id="contact_a" /></a>
+					<a href="https://www.facebook.com/petcoce/" target="_blank" id="contact_link">
+
+						<img src="./img/contato_roxo.png" onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id)" id="contact_a" />
+
+					</a>
 				</div>
 				
 				<div id="instagram">
-					<a href="https://www.instagram.com/petcoce/" target="_blank"><img src="./img/instagram_roxo.png" onmouseover="this.src='./img/instagram_roxo_mouse_on.png'" onmouseout="src='./img/instagram_roxo.png'" id="instagram_a" /></a>
+					<a href="https://www.instagram.com/petcoce/" target="_blank">
+
+						<img src="./img/instagram_roxo.png"  id="instagram_a" onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id);" />
+					</a>
 				</div>
 				
 				<div id="facebook">
-					<a href="https://www.facebook.com/petcoce/" target="_blank"><img src="./img/facebook_roxo.png" onmouseover="this.src='./img/facebook_roxo_mouse_on.png'" onmouseout="src='./img/facebook_roxo.png'" id="facebook_a" /></a>
+					<a href="https://www.facebook.com/petcoce/" target="_blank">
+
+						<img src="./img/facebook_roxo.png" onmouseover="mouseon(this.id);" onmouseout="mouseout(this.id);" id="facebook_a" />
+					</a>
 					
 				</div>
 				
 				<div id="menu_bar">
-					<img src="./img/menu_roxo.png" />
+					<a href="#">
+						<img src="./img/menu_roxo.png" />
+					</a>
 				</div>
 				
 			</div>

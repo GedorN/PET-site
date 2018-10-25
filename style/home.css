@@ -53,16 +53,19 @@ body{
 #barra_home_roxa_img{
 	height: 100px;
 	z-index: 1;
+	cursor: pointer;
 }
 
 #barra_home_laranja_img{
 	height: 100px;
 	z-index: 1;
+	cursor: pointer;
 }
 
 #barra_home_vermelha_img{
 	height: 100px;
 	z-index: 1;
+	cursor: pointer;
 }
 
 
