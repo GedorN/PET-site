@@ -85,7 +85,7 @@ body{
 	color: #FFFFFF;
 	z-index: 2;
 }
-.menu_line{
+#menu_line{
 	height: 4em;
 	margin-top: 1.5em;
 	width: 34em;

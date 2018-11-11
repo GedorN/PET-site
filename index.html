@@ -20,33 +20,33 @@
 
 		<div class="container">
 			<div id="logo">
-				<img src="./img/pet_logo_2.jpg" />
+				<img id="home_logo" src="./img/pet_logo_2.jpg" />
 			</div>
 			<div class="style_bars">
 				<div id="barra_home_roxa">
-					<img src="./img/barra_home_roxa.png" id="barra_home_roxa_img" onclick= "changeToBlue();" />
+					<img src="./img/barra_home_roxa.png" id="barra_home_roxa_img" onclick= "changeToBlue(), changeColors();" />
 				</div>
 				<div id="barra_home_laranja">
-					<img src="./img/barra_home_laranja.png" id="barra_home_laranja_img" onclick="changeToOrange();"/>
+					<img src="./img/barra_home_laranja.png" id="barra_home_laranja_img" onclick="changeToOrange(), changeColors();"/>
 				</div>
 				<div id="barra_home_vermelha">
-					<img src="./img/barra_home_vermelha.png" id="barra_home_vermelha_img" onclick="changeToRed();"/>
+					<img src="./img/barra_home_vermelha.png" id="barra_home_vermelha_img" onclick="changeToRed(), changeColors();"/>
 				</div>
 				
 			</div>
 			<div id="photo">
-				<img src="./img/img_home_roxo.png" />
+				<img src="./img/img_home_roxo.png"  id="home_photo" />
 			</div>
 			<div id="text-box">
 				Venha para o PET-CoCe. Nós fazemos as crianças felizes!!!
 			</div>
 			
-			<div class="menu_line">
+			<div id="menu_line">
 				
 				<div id="contact">
-					<a href="https://www.facebook.com/petcoce/" target="_blank" id="contact_link">
+					<a id="contact_link" href="https://www.facebook.com/petcoce/" target="_blank" >
 
-						<img src="./img/contato_roxo.png" onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id)" id="contact_a" />
+						<img id="contact_a" src="./img/contato_roxo.png" onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id)"  />
 
 					</a>
 				</div>
@@ -54,7 +54,7 @@
 				<div id="instagram">
 					<a href="https://www.instagram.com/petcoce/" target="_blank">
 
-						<img src="./img/instagram_roxo.png"  id="instagram_a" onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id);" />
+						<img id="instagram_a" src="./img/instagram_roxo.png"   onmouseover="mouseon(this.id)" onmouseout="mouseout(this.id);" />
 					</a>
 				</div>
 				
@@ -68,7 +68,7 @@
 				
 				<div id="menu_bar">
 					<a href="#">
-						<img src="./img/menu_roxo.png" />
+						<img src="./img/menu_roxo.png" id="menu_a" />
 					</a>
 				</div>
 				
